@@ -1,0 +1,101 @@
+html {
+	overflow-y:scroll;
+}
+
+body {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	font-size:16px;
+	background-color:#FFF;
+	text-align: left;
+}
+
+.container {
+	width: 65%;
+	position:relative;
+	margin:0 auto;
+	padding: 10px 60px;
+	background-color:#FFF;
+}
+
+.top {
+	position:relative;
+	top:10px;
+	margin:0 auto;
+	text-align:center;
+}
+
+h2 {
+	margin-top: -5px;
+	margin-bottom: 20px;
+	color: #f98bb3;
+	padding: 5px;
+	text-align:center;
+}
+
+.navbar {
+	margin-top: 10px;
+	border-top: 5px solid #D3D3D3;
+	border-bottom: 5px solid #D3D3D3;
+	padding: 20px;
+	text-decoration: none;
+	color: #f98bb3;
+	font-size: 18px;
+	text-align:center;
+}
+
+.navbar a, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover, a:active {
+	color: #f98bb3;
+}
+
+.content {
+	line-height: 150%;
+}
+
+img.floatLeft { 
+    	float: left; 
+    	margin-right: 10px; 
+}
+.floatRight { 
+    	float: right; 
+    	margin-left: 10px; 
+	text-align:center;
+}
+
+.left {
+	float: left;
+	margin-left: 75px;
+	margin-right: 10px;
+	margin-bottom: 50px;
+}
+
+.right {
+	text-align:center;
+	padding: 400px, 0, 0, 0;
+	margin-right: 75px
+}
+
+.vid {
+	position:relative;
+	text-align:center;
+	margin:0 auto;
+	padding: 10px 60px;
+}
+
+.fixed
+{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #f98bb3;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #D3D3D3;
+}
