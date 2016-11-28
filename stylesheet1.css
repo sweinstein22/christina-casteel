@@ -33,6 +33,14 @@ h2 {
 	text-align:center;
 }
 
+h3 {
+	margin-top: -5px;
+	margin-bottom: 20px;
+	color: #f98bb3;
+	padding: 5px;
+	text-align:center;
+}
+
 .navbar {
 	margin-top: 10px;
 	border-top: 5px solid #D3D3D3;
@@ -44,7 +52,7 @@ h2 {
 	text-align:center;
 }
 
-.navbar a, a:visited {
+a, a:visited {
 	text-decoration: none;
 	color: #000;
 }
